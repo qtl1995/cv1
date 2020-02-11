@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  width: 30%;
+  margin: 0 auto;
+  font-family: 'Odibee Sans', cursive;
+}
+
+h2 {
+  font-family: 'Odibee Sans', cursive;
+}
+
+h3 {
+  font-family: 'Odibee Sans', cursive;
+}
+
+.top-container {
+  background-color: #ecfcff;
+  position: relative;
+  padding-top: 100px;
+}
+
+.learn {
+  text-decoration: underline;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 500px;
+  top: 50px;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 300px;
+}
+
+.image-cropper{
+  border: solid;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+.myprofile{
+    margin: auto;
+    display: inline;
+    height: 130%;
+    width: auto;
+    position: relative;
+    right: 2px;
+}
+
+.computer{
+    margin: auto;
+    display: inline;
+    width: auto;
+    height: 205px;
+    position:relative;
+    bottom:5px
+}
+
+.movies{
+  margin: auto;
+  display: inline;
+  width: 200px;
+  height: auto;
+  position:relative;
+  bottom: 35px;
+}
