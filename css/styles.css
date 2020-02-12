@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  color: #40514E margin: 0;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -14,21 +14,19 @@ h1 {
 
 h2 {
   font-family: 'Odibee Sans', cursive;
-  font-size: 2.5rem
-  color: blue;
+  font-size: 2.5rem color: blue;
 }
 
 h3 {
   font-family: 'Odibee Sans', cursive;
-   color: #11999E;
+  color: #11999E;
 }
-
 
 a {
   color: #11999E;
 }
 
-hr{
+hr {
   border-style: dotted none none none;
   border-width: 10px;
   margin: 100px auto;
@@ -42,7 +40,7 @@ hr{
   padding-top: 125px;
 }
 
-.bottom-container{
+.bottom-container {
   margin-top: 15px;
   padding: 20px;
   background-color: #66BFBF;
@@ -63,7 +61,7 @@ hr{
   left: 300px;
 }
 
-.image-cropper{
+.image-cropper {
   border: solid;
   margin: auto;
   width: 200px;
@@ -74,7 +72,7 @@ hr{
   margin-top: 80px;
 }
 
-.image-cropper1{
+.image-cropper1 {
   border: solid;
   margin: auto auto 50px 5px;
   width: 200px;
@@ -84,11 +82,9 @@ hr{
   border-radius: 100%;
   float: left;
   clear: left;
-
 }
 
-
-.image-cropper2{
+.image-cropper2 {
   border: solid;
   margin: auto auto 50px 5px;
   width: 200px;
@@ -98,60 +94,74 @@ hr{
   border-radius: 100%;
   float: right;
   clear: left;
-
 }
 
-.myprofile{
-    margin: auto;
-    display: inline;
-    height: 130%;
-    width: auto;
-    position: relative;
-    right: 2px;
+.myprofile {
+  margin: auto;
+  display: inline;
+  height: 130%;
+  width: auto;
+  position: relative;
+  right: 2px;
 }
 
-.computer{
-    margin: auto;
-    display: inline;
-    width: auto;
-    height: 205px;
-    position:relative;
-    bottom:5px
+.computer {
+  margin: auto;
+  display: inline;
+  width: auto;
+  height: 205px;
+  position: relative;
+  bottom: 5px
 }
 
-.movies{
+.movies {
   margin: auto;
   display: inline;
   width: 200px;
   height: auto;
-  position:relative;
+  position: relative;
   bottom: 36px;
 }
 
-
-.learner{
+.learner {
   font-weight: normal
 }
 
-.hobby-row{
+.hobby-row {
   width: 50%;
   margin: 50px auto;
   line-height: 2;
   text-align: center;
 }
 
-.profile{
-   line-height: 2;
+.profile {
+  line-height: 2;
 }
 
-.btn{
+.btn {
   color: white;
   background-color: #66BFBF;
   border-radius: 15px;
   padding: 16px 32px;
 }
 
-.btn:hover{
+.btn:hover {
   opacity: 1;
   background-color: #11999E;
+}
+
+.footer-link {
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.copyright{
+  color: white;
+  font-size: 0.75rem;
+  padding:5px 0 0 0;
+
 }
