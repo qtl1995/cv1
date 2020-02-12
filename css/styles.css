@@ -5,23 +5,47 @@ body {
 }
 
 h1 {
+  font-size: 5rem;
   width: 30%;
-  margin: 0 auto;
-  font-family: 'Odibee Sans', cursive;
+  margin: 50px auto 0;
+  font-family: 'Russo One', sans-serif;
+  color: #66BFBF;
 }
 
 h2 {
   font-family: 'Odibee Sans', cursive;
+  font-size: 2.5rem
+  color: blue;
 }
 
 h3 {
   font-family: 'Odibee Sans', cursive;
+   color: #11999E;
+}
+
+
+a {
+  color: #11999E;
+}
+
+hr{
+  border-style: dotted none none none;
+  border-width: 10px;
+  margin: 100px auto;
+  width: 10%;
+  color: #EAF6F6;
 }
 
 .top-container {
   background-color: #ecfcff;
   position: relative;
-  padding-top: 100px;
+  padding-top: 125px;
+}
+
+.bottom-container{
+  margin-top: 15px;
+  padding: 20px;
+  background-color: #66BFBF;
 }
 
 .learn {
@@ -47,6 +71,34 @@ h3 {
   position: relative;
   overflow: hidden;
   border-radius: 100%;
+  margin-top: 80px;
+}
+
+.image-cropper1{
+  border: solid;
+  margin: auto auto 50px 5px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 100%;
+  float: left;
+  clear: left;
+
+}
+
+
+.image-cropper2{
+  border: solid;
+  margin: auto auto 50px 5px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 100%;
+  float: right;
+  clear: left;
+
 }
 
 .myprofile{
@@ -73,5 +125,33 @@ h3 {
   width: 200px;
   height: auto;
   position:relative;
-  bottom: 35px;
+  bottom: 36px;
+}
+
+
+.learner{
+  font-weight: normal
+}
+
+.hobby-row{
+  width: 50%;
+  margin: 50px auto;
+  line-height: 2;
+  text-align: center;
+}
+
+.profile{
+   line-height: 2;
+}
+
+.btn{
+  color: white;
+  background-color: #66BFBF;
+  border-radius: 15px;
+  padding: 16px 32px;
+}
+
+.btn:hover{
+  opacity: 1;
+  background-color: #11999E;
 }
